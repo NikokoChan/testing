@@ -1,0 +1,23 @@
+.our-clients {
+    --card-item: 2;
+    @media screen and (min-width: 768px) {
+        --card-item: 3;
+    }
+    @media screen and (min-width: 1200px) {
+        --card-item: 6;
+    }
+}
+
+.our-clients__link {
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    height: 92px;
+
+    color: var(--icon-color);
+
+    transition: color var(--transition-duration) var(--transition-cubic-bezier);
+}
+
+.our-clients__icon {
+    fill: currentColor;
+}

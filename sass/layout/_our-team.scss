@@ -1,0 +1,74 @@
+.our-team {
+    background-color: var(--secondary-background-color);
+    
+    --card-item: 1;
+
+    @media screen and (min-width: 768px) {
+        --card-item: 2;
+    }
+
+    @media screen and (min-width: 1200px) {
+        --card-item: 4;
+    }
+}
+
+.our-team__item {
+    width: calc(100% - 30px);
+}
+
+.our-team__img {
+    @media screen and (min-width: 480px) {
+        width: 450px;
+        height: 460px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+        height: 374px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        width: 270px;
+        height: 260px;
+    }
+
+
+}
+
+.our-team__border {
+    padding: 30px 32px 24px;
+
+    @media screen and (min-width: 480px) {
+        padding: 30px 130px 24px;
+    }
+    
+    @media screen and (min-width: 768px) {
+        padding: 30px 74px 24px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 30px 32px 24px;
+    }
+
+    background: var(--white-color);
+    box-shadow: var(--border-shadow);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team__name,
+.our-team__position {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.our-team__name {
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.our-team__position {
+    margin-bottom: 16px;
+}

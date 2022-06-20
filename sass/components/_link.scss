@@ -1,0 +1,22 @@
+.header-link,
+.footer__link,
+.header-link__icon,
+.our-clients__link,
+.menu-container__nav-item {
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.header-link--active-link {
+    color: var(--accent-color);
+}
+
+.social__link,
+.footer .social__link {
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    }
+}
